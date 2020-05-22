@@ -1,0 +1,76 @@
+  html{
+	height: 100%
+}
+*{box-sizing:border-box;
+}
+
+
+body{
+	 
+	 background-color:#cccccc;
+	 margin: 0;
+	 color: black;
+	 font-size:20px;
+	 line-height:35px;
+	 font-family: Impact, Charcoal, sans-serif;
+	 
+ }
+header{
+	background: url('ok.jpg');
+	color:white;
+	font-size: 80px;
+	font-weight:700;
+	padding: 80px 60px;
+	
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.content {
+	background: #333030;
+}
+.content::after{
+	content: "";
+	clear: both;
+	display: table;	
+}
+nav{
+	width: 25%;
+	float:left;
+}
+nav ul {
+	margin: 0;
+	padding: 30px;
+	list-style: none;
+}
+
+nav ul li{
+	 border-bottom: 3px dashed rgba(255,255,255,2)
+}
+nav a{
+	color:white;
+	text-decoration:none;
+	padding: 15px 0;
+	display:block;
+}
+nav a:hover {
+	padding: 15px;
+	background-color: rgba(255,255,255,.1);
+}
+main{
+	width: 75%; background-color:white;
+	float:left;
+	padding: 30px;
+	
+}
+
+
+main p{
+	line-height: 25px;
+}
+
+footer{
+	
+	padding:20px 0;
+}
